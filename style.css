@@ -1,0 +1,262 @@
+body {
+    font-size: 18px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+/* HEADER */
+.container {
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.navbar {
+
+}
+
+.navbar__menu{
+    display: flex;
+    list-style-type: none;
+    margin-right: 40px;
+    padding-left: 0px;
+}
+
+.menu__element .menu__link {
+    text-decoration: none;
+    color: #314584;
+    margin: 22px;
+}
+
+.navbar__side-menu {
+    display: flex;
+}
+
+.side-menu__language{
+    color: #314584;
+    font-size: 18px;
+    line-height: 20.76px;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    font-weight: 600;
+    padding-top: 1em;
+}
+
+.side-menu__button {
+    padding: 18px 27px;
+    background: white;
+    color: #FF3946;
+    border: none;
+    box-shadow: 0 5px 10px rgba(25, 45, 51, 0.15);
+    border-radius: 5%;
+    margin-left: 45px;
+}
+
+/* ABOUT US */
+
+.about-us {
+    display: flex;
+    margin-top: 109px;
+}
+
+.about-us__info {
+    padding-top: 156px;
+    max-width: 553px;
+}
+
+.info__title {
+    font-size: 73px;
+    color: #314584;
+    margin-bottom: 48px;
+}
+
+.info__subtitle {
+    font-size: 1em;
+    color: #6E757A;
+    margin-bottom: 45px;
+}
+
+.button {
+    padding: 20px 35px;
+    background: #FF3946;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.info__link {
+    text-decoration: none;
+    font-size: 1em;
+    color: #314584;
+    margin-left: 38px;
+}
+
+.slider__image {
+    max-width: 400px;
+    margin-left: 194px;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__upper-text {
+    font-size: 48px;
+    color: 314584;
+    max-width: 393px;
+}
+
+.portfolio__gallery {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 28px;
+}
+
+.gallery__image {
+    max-width: 371px;
+    height: 281px;
+    background: #6E757A;
+}
+
+.portfolio__lower-text {
+    align-self: center;
+}
+
+.lower-text_link {
+    text-decoration: none;
+    color: #FF3946;
+}
+
+/*CONTACT US*/
+
+.contact-us {
+    margin-top: 302px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us__upper-text {
+    font-size: 1em;
+    color: #FF3946;
+}
+
+.contact-us__lower-text {
+    font-size: 48px;
+    color: #314584;
+}
+
+.contact-us__fields {
+    display: grid;
+    grid-template: "email subject" 63px
+                    "message message" 123px;
+    grid-gap: 29px;
+}
+
+.fields__email {
+    grid-area: email;
+    font-size: 1em;
+    max-width: 100%;
+    border: none;
+    color: #314584;
+    background: #F4FAFE;
+}
+
+.fields__subject {
+    grid-area: subject;
+    font-size: 1em;
+    max-width: 100%;
+    border: none;
+    color: #314584;
+    background: #F4FAFE;
+}
+
+.fields__message {
+    grid-area: message;
+    border: none;
+    color: #314584;
+    background: #F4FAFE;
+    max-width: 100%;
+ }
+
+.fields__button {
+    align-self: center;
+    margin: 63px 0;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #314584;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__content {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_upper-text {
+    font-size: 1em;
+    margin: 72px 0 0 0;
+    color: #FFFFFF;
+    align-self: center;
+    align-self: center;
+    padding: 0;
+}
+
+.footer_lower-text {
+    margin: 27px 0 0 0;
+    font-size: 48px;
+    color: #FF3946;
+    align-self: center;
+    padding: 0;
+}
+
+.footer__menu {
+    display: flex;
+    list-style-type: none;
+    align-self: center;
+    margin: 47px 0 0 0;
+}
+
+.footer__menu_element .footer__menu_link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1em;
+    margin-right: 47px;
+}
+
+.footer__copyrates {
+    font-size: 14px;
+    color: #FFFFFF;
+    align-self: center;
+    margin: 58px 0 0 0;
+}
+
+.footer__social {
+    display: flex;
+    align-self: center;
+}
+
+.social__image {
+    margin: 38px 0 52px 85px;
+}
+
